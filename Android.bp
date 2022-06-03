@@ -1,0 +1,10 @@
+android_app_import {
+	name: "GoogleCameraArnova",
+	overrides: ["Camera2", "GrapheneOS-Camera", "GoogleCameraGo", "GoogleCamera"],
+	apk: "app/GoogleCamera/GoogleCamera.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
